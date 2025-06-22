@@ -1,0 +1,318 @@
+:root {
+  --main-font: 'Nunito', sans-serif;
+  --main-color: #3668ff;
+  --secondary-color: ;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+.navbar-cont,
+.main-cont {
+  background-color: var(--main-color);
+}
+#pandora-help {
+  width: 23px;
+  fill: white;
+  color: black;
+}
+
+/* navbar */
+
+.navbar-cont {
+  padding: 20px 30px;
+}
+
+.navbar-cont ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  list-style: none;
+  font-size: 16px;
+}
+
+.view-plans-nav,
+.sign-up-nav,
+.log-in-nav {
+  text-decoration: none;
+  color: white;
+  font-family: var(--main-font);
+  font-weight: 600;
+}
+
+/*landing section*/
+.landing-cont {
+  background-color: var(--main-color);
+  width: 100%;
+  height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pandora-logo-landing-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pandora-logo-landing {
+  color: white;
+  width: 300px;
+}
+
+.landing-title {
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.search-landing-cont {
+  padding-top: 20px;
+}
+
+#search-landing {
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  font-family: var(--main-font);
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.landing-explanation-cont {
+  margin-top: 16px;
+}
+
+.landing-explanation {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/*subscription section*/
+.subscription-pandora-logo-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-pandora-logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  margin: -2rem auto 0;
+  width: 66px;
+  padding: 12px 12px 12px 15px;
+  background-color: white;
+  border-radius: 1000px;
+}
+.subscription-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 42rem;
+  padding: 4rem 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url('assets/subscription_background.jpg');
+}
+
+.subscription-title {
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.subscription-cards {
+  display: flex;
+  gap: 35px;
+}
+
+/* subscription cards */
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+  width: 21rem;
+  height: auto;
+  background-color: white;
+}
+
+.card1-title,
+.card2-title,
+.card3-title {
+  font-weight: 400;
+}
+
+.card-header-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.card1-cost {
+  color: #3668ff;
+  font-size: 23px;
+}
+
+.card2-cost {
+  color: #9a00de;
+  font-size: 23px;
+}
+
+.card3-cost {
+  color: #5d36b5;
+  font-size: 23px;
+}
+
+.card1-btn {
+  background-color: #3668ff;
+  color: white;
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.card2-btn {
+  background-color: #9a00de;
+  color: white;
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.card3-btn {
+  background-color: #6723e8;
+  color: white;
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.subscription-features {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 16px;
+}
+
+.checkmark {
+  color: #3668ff;
+  font-weight: 700;
+}
+
+.feature-in {
+  font-weight: 600;
+}
+
+.feature-out {
+  opacity: 0.7;
+}
+
+.card-design-line {
+  width: 80%;
+  height: 1px;
+  margin-top: 20px;
+  background-image: linear-gradient(to right, #537da5, #62a6b1);
+  border: none;
+}
+
+.unlock-by-ad {
+  padding: 10px 0px;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.discounted-premium-plans-cont{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.discounted-premium-plans-title{
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-top: 12px;
+}
+
+.discounted-premium-plans{
+  display: flex;
+  gap: 14px;
+  font-size: 13px;
+}
+
+.premium-plan{
+  color: #3668ff;
+  font-weight: 800;
+}
+/* responsive cards */
+@media screen and (max-width: 1150px){
+.subscription-cards {
+  flex-direction: column;
+}
+}
+
+.legal-disclaimer{
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+/* listening experience section*/
+.listening-experience-icon-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listening-experience-icon{
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  margin: -2rem auto 0;
+  width: 66px;
+  padding: 12px 12px 12px 15px;
+  background-color: white;
+  border-radius: 1000px;
+}
+
+.listening-experience-cont{
+  background-image: url("assets/listening-background.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 62rem;
+}
